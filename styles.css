@@ -1,0 +1,91 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+header {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #b330db;
+}
+h1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 3em;
+    color: #eff538;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, .5);
+}
+#studentIdButton {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: #eff538;
+    border-style: none;
+    font-size: .8em;
+    color: #0e0e0e;
+}
+#studentId {
+    font-size: 1em;
+    color: #eff538;
+}
+.selectionSection {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #39db30;
+}
+.selectionSection h2 {
+    font-size: 1.5em;
+    color: #b330db;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+}
+.selectionSection button {
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #eff538;
+    border-style: none;
+    font-size: .7em;
+}
+.selectionSection p {
+    font-size: 1em;
+    color: #b330db;
+    display: flex;
+    flex-direction: column;
+}
+
+.storyMaker {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #b330db;
+}
+.storyMaker h2 {
+    font-size: 1.5em;
+    color: #eff538;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, .5);
+}
+.storyMaker button {
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: .7em;
+    margin: 1em;
+    background-color: #eff538;
+    color: #0e0e0e;
+}
+.storyMaker p {
+    font-size: 1.5em;
+    color: #eff538;
+
+}
